@@ -1,0 +1,68 @@
+
+#----------------------------
+#  new v1.3
+#----------------------------
+
+
+# labeling.py 自动播放设置
+# video_to_images 增加 totate功能
+# 添加button
+# 图片去重 
+# video_tools.py => img_to_video() 新增错误图片处理
+# cyber-slacking 整合
+# spider(新增 百度图片爬虫)  需要增加错误处理 raise ContentTooShortError(
+urllib.error.ContentTooShortError: <urlopen error retrieval incomplete: got only 1048576 out of 1079656 bytes>
+
+    pages = self._calc_pages(result["total"], self.RESULTS_PER_PAGE["pic"])
+KeyError: 'total'
+
+
+
+
+# train_val split
+# img_combine
+# modify class
+# 从所有标签中选择单独的那个标签的图片，以及标签
+# 修改xml标签
+# xml =》 txt
+# 
+
+
+
+#----------------------------
+#  done
+#----------------------------
+
+# rtsp rec测试 (done)
+# 全部功能 测试 (done)
+# get_path.py (done)
+# video to img  (done)
+# img to video  (done)
+# video play & record (done)
+# video_tools.py -> flow.py (done)
+
+
+
+
+
+#----------------------------
+#  to do  v1.1
+#----------------------------
+# (done)img & label dir clean up
+# dir imcrement
+
+# into project
+
+# simplify
+# key combination
+
+#----------------
+# maybe todo
+#----------------
+# --get_path   
+# --video2img
+# --img2video
+# --dir_combine
+# --rename_dir_item_name(random_name & dir name)
+#----------------------------
+
